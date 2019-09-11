@@ -1,0 +1,142 @@
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+.Tips {
+min-height: 100%;
+position: relative;
+padding-bottom: 0px;
+}
+
+#Taps {
+color: rgb(64, 64, 64);
+float: right;
+margin-top: 10px;
+
+}
+
+p {
+padding-right: 15px;
+font-family: Arial, sans-serif;
+font-size: 13px;
+display: inline-block;
+}
+
+.Bips {
+background-image: url(https://ssl.gstatic.com/gb/images/v1_376447c3.png);
+background-position: 0px -735px;
+border-radius: 2px;
+height: 30px;
+opacity: 0.55;
+width: 30px;
+display: inline-block;
+margin: 0px 10px -10px 20px;
+}
+
+
+.Baps {
+background-image: url(https://ssl.gstatic.com/gb/images/i1_71651352.png);
+background-position: -214px -117px;
+background-color: rgba(0, 0, 0, 0.54902);
+border-radius: 50%;
+height: 20px;
+width: 20px;
+position: relative;
+margin: 0px 10px -5px 10px;
+display: inline-block;
+}
+
+.coolguy img {
+border-radius: 100%;
+height: 35px;
+width: 35px;
+display: inline-block;
+position: absolute;
+margin: -39px 0px 0px 360px;
+}
+
+#Plan {
+margin: 0px auto;
+text-align: center;
+}
+
+#Plan img {
+display: block;
+height: 190px;
+width:400px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+input {
+background-color: transparent;
+font-size: 16pt;
+border: 1px solid gray;
+color: rgba(0,0,0,.87);
+display: block;
+margin-bottom: 20px;
+margin-top: 49px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#bouton_recherche {
+	margin-top: -16px;
+	position: absolute;
+	top: 55.5%;
+	right: 1010px;
+	width: 30px;
+	height: 27px;
+}
+
+.l_button, .r_button {
+display: inline-block;
+    background-color: #f2f2f2;
+    color: #5F6368;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 6%;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: .8;
+    margin-right: 20px;
+    width: 140px;
+    cursor: pointer;
+}
+
+
+#footer {
+background-color: #f2f2f2;
+color: #5F6368;
+font-family: Arial, sans-serif;
+font-size: 13px;
+opacity: .7;
+position: absolute;
+width: 100%;
+bottom: 0;
+left: 0;
+overflow: hidden;
+}
+
+li {
+display: inline-block;
+padding-right: 15px;
+}
+
+ul:nth-child(1) {
+list-style-type: none;
+float: left;
+
+}
+ul:nth-child(2) {
+list-style-type: none;
+float: right;
+}
+
+.Page {
+display: block;
+padding-bottom: 110px;
+}
